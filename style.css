@@ -179,6 +179,109 @@ width: 100%;
 }
 
 
+.card{
+   background-color: #230E3D;
+   height: 70rem;
+
+
+}
+.card-h1{
+    color: #FFFFFF;
+    margin-bottom: 4rem;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.card-layout{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 75rem;
+        margin: auto;
+       gap: 1.5rem;
+
+}
+.headphone{
+    grid-column: span 1;
+    grid-row: span 2;
+     padding: 2rem 2rem;
+     background-color: #351165;
+     border-radius: 2rem;
+     
+}
+.headphone h4{
+    color: #FFFFFF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.headphone p{
+    color: #ffffffac;
+}
+.device{
+     grid-column: span 2;
+    grid-row: span 1;
+      background-color: #351165;
+     border-radius: 2rem;
+      padding: 2rem 2rem;
+}
+.device h4{
+    color: #FFFFFF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.device p{
+    color: #ffffffac;
+}
+.location{
+    grid-column: span 2;
+    grid-row: span 1;
+      background-color: #351165;
+     border-radius: 2rem;
+      padding: 2rem 2rem;
+}
+.location h4{
+    color: #FFFFFF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.location p{
+    color: #ffffffac;
+}
+.interview{
+    grid-column: span 2;
+    background-color: #351165;
+     border-radius: 2rem;
+      padding: 2rem 2rem;
+
+}
+.interview h4{
+    color: #FFFFFF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.interview p{
+    color: #ffffffac;
+}
+.resource{
+     grid-column: span 1;
+     background-color: #351165;
+     border-radius: 2rem;
+      padding: 2rem 2rem;
+}
+.resource h4{
+    color: #FFFFFF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.resource p{
+      color: #ffffffac;
+}
+
+
 
 
 
