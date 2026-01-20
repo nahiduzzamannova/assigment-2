@@ -502,12 +502,18 @@ html, body {
         grid-row: span 1;
     }
     .card-h1{
-            font-size: 2rem;
+            font-size: 1.5rem;
     }
 
     .podcast {
         height: auto;
         padding-bottom: 50px;
+    }
+    .podcast-title{
+        font-size: 1.5rem;
+        
+        
+
     }
     .youtube {
         flex-direction: column;
