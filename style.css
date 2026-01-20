@@ -29,6 +29,8 @@ html, body {
     justify-content: space-between;
     /* justify-content: center; */
     align-items: center;
+
+
 }
 .nav-text{
     color: #ffffff;
@@ -51,8 +53,10 @@ html, body {
 .btn-primary{
     padding: 12px 30px;
     border-radius: 12px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF; 
+}
+.menu{
+    display: none;
 }
 .hero{
     background-color: #365245;
@@ -437,7 +441,12 @@ html, body {
     }
    .nav-class h2{
     text-align: center;
-
+   }
+   .btn-primary{
+    display: none;
+   }
+   .menu{
+    display: inline;
    }
    .hero {
         width: 100%;
